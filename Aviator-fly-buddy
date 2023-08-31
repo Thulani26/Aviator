@@ -1,0 +1,28 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator: Predict When It Flies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="aviator-header">
+        <h1>Predict When It Flies</h1>
+    </header>
+    <section class="aviator-section">
+        <form id="flight-form">
+            <label for="flight-number">Flight Number:</label>
+            <input type="text" id="flight-number" required>
+            <button type="submit">Get Departure Time</button>
+        </form>
+        <div id="departure-time"></div>
+    </section>
+    <footer class="aviator-footer">
+        <p>&copy; 2023 Predict When It Flies</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+```
